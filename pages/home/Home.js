@@ -43,7 +43,7 @@ export default function HomeScreen({ navigation }) {
             </View>
 
             <View style={styles.buttonContainer}>
-                <Button title='Apagar' onPress={removerTexto} color='red' />
+                <Button title='Apagar' onPress={removerTexto} color='purple' />
             </View>
 
             <View style={styles.buttonContainer}>
@@ -63,11 +63,11 @@ export default function HomeScreen({ navigation }) {
 }
 
 const styles = StyleSheet.create({
-    container: { flex: 1, justifyContent: 'center', alignItems: 'center', backgroundColor: '#EAF6F6' },
-    title: { fontSize: 22, fontWeight: 'bold', marginBottom: 15 },
-    input: { width: '80%', borderWidth: 1, padding: 8, marginBottom: 10, backgroundColor: '#FFF' },
-    normalText: { color: '#FF5733', marginBottom: 10 },
-    savedText: { color: '#33AFFF', marginBottom: 10 },
+    container: { flex: 1, justifyContent: 'center', alignItems: 'center', backgroundColor: '#bca4c4' },
+    title: { fontSize: 40, fontWeight: 'bold', marginBottom: 15 },
+    input: { width: '80%', borderWidth: 1, padding: 8, marginBottom: 10,  },
+    normalText: { color: '#564468', marginBottom: 10 },
+    savedText: { color: '#564468', marginBottom: 10 },
     buttonContainer: { width: '80%', marginBottom: 10 },
-    linkPerfil: { color: 'gray', textDecorationLine: 'underline', marginTop: 20 }
+    linkPerfil: { color: 'purple', textDecorationLine: 'underline', marginTop: 20,  }
 });

@@ -17,9 +17,9 @@ const DetalhesScreen = ({ route, navigation }) => {
 };
 const styles = StyleSheet.create({
     container: { flex: 1, justifyContent: 'center', alignItems: 'center', backgroundColor: '#EAF6F6' },
-    title: { fontSize: 22, fontWeight: 'bold', marginBottom: 15 },
+    title: { fontSize: 40, fontWeight: 'bold', marginBottom: 15 },
     normalText: { color: '#FF5733', marginBottom: 10 },
-    savedText: { color: '#33AFFF', marginBottom: 10 },
+    savedText: { fontSize: 24, color: '#33AFFF', marginBottom: 10 },
     buttonContainer: { width: '80%', marginTop: 10 }
 });
 
